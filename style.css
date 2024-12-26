@@ -114,6 +114,36 @@ body{
     display: none;
 }
 
+@media  only screen and (max-width:455px){
+    
+    
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+        width: 50px;
+    
+    }
+
+    .detail{
+        position: relative;
+        left: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0px 20px; */
+        gap: 60px;
+        margin-top: 0px;
+    }
+}
+
 
 
 
